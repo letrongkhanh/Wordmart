@@ -1,0 +1,488 @@
+.header {
+    display: flex;
+    /* padding: 15px 0px; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.body {
+    background-color: #F3F3F3;
+}
+
+.header a {
+    color: #111111;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    display: flex;
+    margin: 0px 25px;
+    list-style-type: none;
+}
+
+.ic-menu {
+    display: flex;
+}
+
+.ic-menu-item {
+    display: flex;
+    margin: 0px 15px;
+    font-size: 20px;
+}
+
+.ic-menu-link-login {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.slide {
+    height: 820px;
+    background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2021/02/wd-coffee-slide-3.jpg);
+}
+
+.intro {
+    margin-top: 300px;
+    max-width: 600px;
+}
+
+.slogan {
+    font-size: 54px;
+    line-height: 74px;
+    color: #114639;
+}
+
+.desc-slogan {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+/* css our coffe */
+.our-coffee h4 {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 35px;
+}
+
+.title-sp {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn {
+    color: #fff;
+    box-shadow: inset 0 0 200px rgba(0, 0, 0, .1);
+    padding: 5px 20px;
+    outline: none;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #114639;
+}
+
+.title {
+    color: #114639;
+    font-size: 30px;
+}
+
+.product-wrap {
+    text-align: center;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-title {
+    font-size: 15px;
+    margin-top: 25px;
+    color: #114639;
+}
+
+.product-price {
+    margin-top: 10px;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: flex-end;
+    height: 100%;
+    gap: 10px;
+}
+
+.contact-right p {
+    color: #555555;
+}
+
+.contact-right a {
+    color: #114639;
+    text-decoration: underline;
+}
+
+.contact-right h4 {
+    color: #114639;
+}
+
+.contact-left img {
+    width: 100%;
+}
+
+.contact-img {
+    width: 40%;
+}
+
+.check-out {
+    margin-top: 30px;
+}
+
+.wpb {
+    margin-top: 100px;
+}
+
+.wpb-column {
+    margin-top: 50px;
+}
+
+.wm-title {
+    font-size: 44px;
+    line-height: 60px;
+    color: #114639;
+    margin-top: 25px;
+}
+
+.wd-carousel-title {
+    font-size: 15px;
+    margin-top: 25px;
+    color: #111111;
+}
+
+.wd-carousel-price {
+    margin-top: 5px;
+    color: #114639;
+}
+
+.wd-btn {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 5px 20px;
+}
+
+.btn-primary {
+    background-color: #114639;
+}
+
+.wpb-wrapper {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.wd-carousel {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.wd-carousel img {
+    width: 100%;
+}
+
+/* footer */
+.footer {
+    padding: 25px 0px;
+    background-color: #111111;
+}
+
+.ft-menu {
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+
+.ft-menu-item {
+    margin: 15px 0px;
+}
+
+.ft-menu-link {
+    color: #757575;
+}
+
+.ft-menu-link:hover {
+    color: rgb(255, 255, 255)
+}
+
+.widget-title {
+    color: #fff;
+}
+
+.ft-link {
+    width: 220px;
+    height: 30px;
+    margin: 15px 0;
+
+}
+
+.ft-thame {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+}
+
+.list-content {
+    margin: 0;
+    color: #fff;
+}
+
+.ft-item-thame {
+    margin: 10px 0;
+}
+
+.ft-text-block {
+    color: #fff;
+}
+
+.woodmart-recent {
+    display: flex;
+    font-size: 14px;
+
+}
+
+.widget-title {
+    font-size: 13px;
+}
+
+/* .recent-posts-info {
+    margin: 15px;
+} */
+.recent-posts-info {
+    margin: 0 10px;
+}
+
+.entities-title {
+    color: #fff;
+}
+
+.recent-posts-thumbnail {
+    color: #fff;
+}
+
+.recent-posts-time {
+    color: #757575;
+}
+
+.recent-posts-comment {
+    color: #757575;
+}
+
+.recent-posts-info img {
+    margin: 15px;
+}
+
+.rp {
+    display: flex;
+    font-size: 14px;
+}
+
+.rp img {
+    margin-top: 15px;
+}
+
+.recent-posts-info-2 {
+    margin-top: 25px;
+    margin: 10px;
+}
+
+.footer-column ul {
+    padding: 0;
+    margin-top: 25px;
+}
+
+.choose-perfect {
+    margin-top: 55px;
+}
+
+.choose-warpper {
+    margin-top: 55px;
+}
+
+.btn-cp {
+    background: #114639;
+}
+
+.cp-ch-img {
+    height: 580px;
+    width: 800px;
+}
+
+.cp-layout {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-choose {
+    display: flex;
+}
+
+.cp-layout .col-md-4 {
+    width: unset;
+}
+
+.chosse-column {
+    margin-top: 100px;
+}
+
+.liner-container {
+    color: #114639;
+    margin-top: 30px;
+}
+
+.choose-after {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.liner-container h4 {
+    font-size: 40px;
+}
+
+.oa-layout {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.oa-title-after {
+    text-align: center;
+}
+
+.oa-title {
+    font-size: 35px;
+    color: #114639;
+}
+
+.oa-carousel-inne img {
+    width: 401px;
+    height: 381px;
+    padding: 0 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Date  */
+.oa-img span {
+    display: block;
+    background-color: #fff;
+    width: 15%;
+    text-align: center;
+}
+
+.oa-img {
+
+}
+
+/* End Date */
+.wd-section-stretch {
+    display: flex;
+}
+
+.wd-section-stretch .col-md-6 {
+    width: unset;
+}
+
+.mc4wp-form-fields {
+    display: flex;
+
+}
+
+.mc4wp-form-fields .btn-pf {
+    margin: 0 5px;
+}
+
+.liner-continer {
+    margin-top: 55px;
+}
+
+.wd-pf {
+    padding: 0 25px;
+}
+
+.wd-pf h4 {
+    color: #114639;
+    font-size: 30px;
+}
+
+.wd-pf-form {
+    margin-top: 25px;
+}
+
+.wd-pf-text {
+    margin-top: 25px;
+}
+
+.wd-pf-column {
+    padding-left: 4px;
+}
+
+.wd-pf-column a {
+    color: #111111;
+}
+
+.wd-pf-column p {
+    color: #555555;
+}
+
+.wd-pf h4 {
+    color: #114639;
+}
+
+.wd-pf-form .btn-pf {
+    background-color: #114639;
+    color: #fff;
+}
+
+.font-item {
+    height: 42px;
+    width: 290px;
+    padding: 0 15px;
+    font-size: 15px;
+    background-color: #e0e0e0;
+    border-style: groove;
+    border-color: #d1d1d1;
+}
+
+.btn-pf {
+    height: 42px;
+    width: 122px;
+    border-style: none;
+}
+
+.wd-prefooter {
+    margin-top: 70px;
+}
+
+/* <!-- footer sidebar --> */
+.min-footer {
+    display: flex;
+    align-items: center;
+}
+
+.copyrights-wrapper img {
+    margin-left: 285px;
+}
+
+.copyrights-wrapper {
+    background-color: #111111;
+}
