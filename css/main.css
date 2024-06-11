@@ -3,11 +3,15 @@
     /* padding: 15px 0px; */
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .body {
     background-color: #F3F3F3;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
 }
 
 .header a {
@@ -232,6 +236,7 @@ a {
     width: 220px;
     height: 30px;
     margin: 15px 0;
+    filter: brightness(0) invert(1);
 
 }
 
@@ -243,7 +248,7 @@ a {
 
 .list-content {
     margin: 0;
-    color: #fff;
+    color: #757575;
 }
 
 .ft-item-thame {
@@ -251,7 +256,7 @@ a {
 }
 
 .ft-text-block {
-    color: #fff;
+    color: #757575;
 }
 
 .woodmart-recent {
@@ -264,11 +269,18 @@ a {
     font-size: 13px;
 }
 
+/* footer column */
 /* .recent-posts-info {
     margin: 15px;
 } */
 .recent-posts-info {
     margin: 0 10px;
+    font-size: 13.9px;
+}
+
+.recent-posts-info-2 {
+    margin: 0 10px;
+    font-size: 13.9px;
 }
 
 .entities-title {
@@ -382,16 +394,15 @@ a {
 }
 
 /* Date  */
-.oa-img span {
+
+/* .oa-img span {
     display: block;
     background-color: #fff;
     width: 15%;
     text-align: center;
-}
+} */
 
-.oa-img {
 
-}
 
 /* End Date */
 .wd-section-stretch {
@@ -486,3 +497,158 @@ a {
 .copyrights-wrapper {
     background-color: #111111;
 }
+
+.title-sidebar {
+    font-size: 14px;
+
+}
+
+/* CSS SHOP WORDMART */
+.main-page-wrapper {
+    margin-top: 25px;
+}
+
+.wd-breadcrumbs span {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.woocommerce-Price-amount {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #114639;
+}
+
+.site-content img {
+    width: 450px;
+    height: 500px;
+}
+
+div.quantity input[type="number"] {
+    width: 30px;
+    height: 43px;
+    border-radius: 0;
+    border-style: groove;
+    border-color: #e0e0e0;
+}
+
+div.quantity input[type="button"] {
+    padding: 0 5px;
+    min-width: 25px;
+    min-height: unset;
+    height: 43px;
+    background: #fff;
+    box-shadow: none;
+    border-style: groove;
+    border-color: #e0e0e0;
+}
+
+.button-alt {
+    border-style: groove;
+    box-shadow: none;
+    border-color: #114639;
+}
+
+.cart {
+    display: flex;
+}
+
+.cart button {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.wd-breadcrumbs a {
+    color: #757575;
+}
+
+.entry-title {
+    margin-top: 25px;
+}
+
+.price {
+    font-size: 22px;
+}
+
+.woocommerce-product-details {
+    color: #757575;
+}
+
+.cart {
+    margin-top: 20px;
+}
+
+.button-alt {
+    background-color: #114639;
+    color: #fff;
+    margin: 0 5px;
+}
+
+.product-compare-button i {
+    color: #111111;
+}
+
+.product-compare-button span {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.product-compare-button span {
+    color: #111111;
+}
+
+.product-meta-he {
+    margin-top: 40px;
+    border-top: 1px solid #d3d3d3
+}
+
+.wd-social-icons {
+    display: flex;
+    margin-top: 15px;
+}
+
+.wd-social-icons span {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.product-meta span {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.product-compare-button {
+    display: flex;
+    margin-top: 15px;
+}
+
+.pcb {
+    margin: 0 25px;
+}
+
+.posted-in a {
+    color: #757575;
+}
+
+.wd-icon {
+    margin: 0 5px;
+    display: flex;
+}
+
+.wd-icon1 {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.wd-icon1 i {
+    color: #757575;
+}
+
+/* END SHOP WORDMART */
