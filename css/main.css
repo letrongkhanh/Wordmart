@@ -651,4 +651,47 @@ div.quantity input[type="button"] {
     color: #757575;
 }
 
+/* .wd-nav{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.nav-link-text{
+    margin: 0 15px;
+    color: #114639;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+} */
+.wd-nav {
+    display: inline-flex;
+    list-style: none;
+    margin-top: 30px;
+}
+.product-tabs-wrapper{
+    margin-top: 40px;
+    border-top: 1px solid #d3d3d3
+    
+}
+.nav-link-text {
+    margin: 0 15px;
+    color: #114639;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.wd-nav-wrapper {
+    text-align: center;
+}
+.wpb_wrapper{
+    display: flex;
+}
+.wpb_wrapper p{
+    text-align: left;
+}
 /* END SHOP WORDMART */
