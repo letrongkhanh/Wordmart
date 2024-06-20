@@ -4,6 +4,9 @@
     align-items: center;
     margin-top: 20px;
     /* margin-bottom: 5px; */
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .body {
@@ -24,8 +27,13 @@
 
 .menu-item {
     display: flex;
-    margin: 0px 25px;
+    margin: 0px 15px;
     list-style-type: none;
+}
+
+.menu-item a {
+    margin-top: 3px;
+    font-size: 14px;
 }
 
 .ic-menu {
@@ -469,15 +477,19 @@ a {
     width: 290px;
     padding: 0 15px;
     font-size: 15px;
-    background-color: #e0e0e0;
+    background-color: #F3F3F3;
     border-style: groove;
-    border-color: #d1d1d1;
+    border: 2px solid #d3d3d3;
 }
 
 .btn-pf {
     height: 42px;
     width: 122px;
     border-style: none;
+    text-transform: uppercase;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .wd-prefooter {
@@ -671,11 +683,12 @@ div.quantity input[type="button"] {
     list-style: none;
     margin-top: 30px;
 }
-.product-tabs-wrapper{
+
+.product-tabs-wrapper {
     margin-top: 40px;
     border-top: 1px solid #d3d3d3
-    
 }
+
 .nav-link-text {
     margin: 0 15px;
     color: #114639;
@@ -688,10 +701,228 @@ div.quantity input[type="button"] {
 .wd-nav-wrapper {
     text-align: center;
 }
-.wpb_wrapper{
+
+.wpb_wrapper {
     display: flex;
 }
-.wpb_wrapper p{
+
+.wpb_wrapper p {
     text-align: left;
 }
+
+.unordered-list {
+    list-style: none;
+    padding: 0;
+}
+
+.unordered-list li {
+    margin-top: 15px;
+    color: #757575;
+}
+
+.unordered-list i {
+    color: #d1d1d1;
+}
+
+.entry-content h4 {
+    font-size: 17px;
+}
+
+.entry-content p {
+    color: #757575;
+}
+
+.entry-content {
+    margin-top: 20px;
+}
+
+.wpb_text_column {
+    margin-top: 20px;
+}
+
+.wpb-text-box-3 {
+    margin-top: 20px;
+}
+
+.wpb_content_element {
+    margin-top: 20px;
+}
+
+.wpb_text_column_end {
+    margin-top: 20px;
+}
+
+.wd-prefooter {
+    background-color: #F3F3F3;
+}
+
 /* END SHOP WORDMART */
+
+/* CSS LOGIN */
+.color-login {
+    background-color: #F3F3F3;
+}
+.lg-border-row{
+    border-right: 1px solid #d3d3d3
+}
+.page-title {
+    object-fit: cover;
+    height: 345px;
+    background-image: url(/image/page-title-shop.jpg);
+}
+
+.entry-title-login {
+    text-align: center;
+    padding-top: 150px;
+    color: #fff;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.breadcrumbs-lg {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.breadcrumbs-lg a {
+    color: #fff;
+}
+
+.wd-login-title {
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.wd-login-title-2 {
+    font-size: 22px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.registration-info {
+    text-align: center;
+}
+.wd-switch-to-register{
+    /* height: 42px; */
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 218px;
+    color: #111111;
+    text-transform: uppercase;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.registration-info{
+    color: #757575;
+    margin-top: 40px;
+}
+
+
+.login-woocommerce-form{
+    margin-top: 40px;
+}
+
+.login-title_label {
+    display: grid;
+}
+
+.required_color {
+    color: red;
+}
+
+.login-title_label input {
+    width: 460px;
+    height: 42px;
+    padding: 0 15px;
+    border: 2px solid #d3d3d3;
+    background-color: #F3F3F3;
+}
+
+.form-row button {
+    width: 460px;
+    height: 42px;
+    background-color: #0F4034;
+    color: #fff;
+    border: none;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-form-footer {
+    display: flex;
+    align-items: center;
+}
+
+.woocommerce-LostPassword {
+    margin-left: 195px;
+    color: #111111;
+}
+
+.wd-login-divider {
+    color: #111111;
+    font-size: 14px;
+    margin-left: 170px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.wd-social-login i {
+    border-radius: 2px;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.bxl-google {
+    color: rgb(69, 2, 255);
+    background-color: #ffffff;
+}
+
+.login-fb-link {
+    background-color: #3B5998;
+}
+
+.login-goo-link {
+    background-color: #4285F4;
+}
+
+.wd-social-login a {
+    width: 222.5px;
+    height: 42px;
+    margin: 0 3.5px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* END LOGIN */
+
+/* REGISTER */
+.woocommerce-privacy-policy-text{
+    color: #757575;
+    padding-bottom: 20px;
+}
+.woocommerce-privacy-policy-text p{
+    margin-right: 70px;
+    margin-bottom: 20px
+}
+.woocommerce-privacy-policy-link{
+    color: #111111;
+}
+
+/* END REGISTER */
