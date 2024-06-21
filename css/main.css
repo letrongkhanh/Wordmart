@@ -762,9 +762,11 @@ div.quantity input[type="button"] {
 .color-login {
     background-color: #F3F3F3;
 }
-.lg-border-row{
+
+.lg-border-row {
     border-right: 1px solid #d3d3d3
 }
+
 .page-title {
     object-fit: cover;
     height: 345px;
@@ -809,11 +811,14 @@ div.quantity input[type="button"] {
 .registration-info {
     text-align: center;
 }
-.wd-switch-to-register{
+
+
+.wd-switch-to-register {
     /* height: 42px; */
     width: 110px;
     margin-top: 30px;
-    margin-left: 218px;
+    /* margin-left: 218px; */
+    margin-left: 260px;
     color: #111111;
     text-transform: uppercase;
     font-family: "Lexend", sans-serif;
@@ -822,13 +827,13 @@ div.quantity input[type="button"] {
     font-size: 14px;
 }
 
-.registration-info{
+.registration-info {
     color: #757575;
     margin-top: 40px;
 }
 
 
-.login-woocommerce-form{
+.login-woocommerce-form {
     margin-top: 40px;
 }
 
@@ -913,15 +918,17 @@ div.quantity input[type="button"] {
 /* END LOGIN */
 
 /* REGISTER */
-.woocommerce-privacy-policy-text{
+.woocommerce-privacy-policy-text {
     color: #757575;
     padding-bottom: 20px;
 }
-.woocommerce-privacy-policy-text p{
+
+.woocommerce-privacy-policy-text p {
     margin-right: 70px;
     margin-bottom: 20px
 }
-.woocommerce-privacy-policy-link{
+
+.woocommerce-privacy-policy-link {
     color: #111111;
 }
 
